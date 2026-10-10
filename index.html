@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ретран — расчёт мебели онлайн</title>
+<meta name="description" content="Демо онлайн-расчёта кухонь и шкафов-купе для ООО «Ретран», Тула.">
+<meta name="theme-color" content="#ffffff">
+<script>
+/* тема до отрисовки страницы — без вспышки светлого фона */
+try { var t = localStorage.getItem('tseh.theme'); if (t === 'system') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; else if (t !== 'dark') t = 'light'; document.documentElement.dataset.theme = t; } catch (e) { document.documentElement.dataset.theme = 'light'; }
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d2440'/%3E%3Cpath d='M9 8v14h12V8M21 22v3' stroke='%23fff' stroke-width='2.6' fill='none' stroke-linecap='square'/%3E%3Crect x='23' y='6' width='4' height='4' fill='%233b95e8'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css?v=retran1">
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+</script>
+</head>
+<body>
+<div id="root"></div>
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<div id="overlay"></div>
+<script src="js/core.js?v=retran1"></script>
+<script src="js/pricing.js?v=retran1"></script>
+<script src="js/store.js?v=retran1"></script>
+<script src="js/viewer3d.js?v=retran1"></script>
+<script src="js/ui.js?v=retran1"></script>
+<script src="js/landing.js?v=retran1"></script>
+<script src="js/wizard.js?v=retran1"></script>
+<script src="js/client.js?v=retran1"></script>
+<script src="js/admin.js?v=retran1"></script>
+<script src="js/admin-pages.js?v=retran1"></script>
+<script src="js/main.js?v=retran1"></script>
+</body>
+</html>
